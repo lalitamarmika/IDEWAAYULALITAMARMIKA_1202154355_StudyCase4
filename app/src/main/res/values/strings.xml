@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Async Task</string>
+    <string-array name="namamhsw">
+        <item>Lalita</item>
+        <item>Irma</item>
+        <item>Binar</item>
+        <item>Ira</item>
+        <item>Jimly</item>
+        <item>Regina</item>
+        <item>Labaikka</item>
+        <item>Firda</item>
+        <item>Intan</item>
+        <item>Dewi</item>
+        <item>Yuna</item>
+        <item>Dwiki</item>
+        <item>Bregas</item>
+        <item>Syanaz</item>
+        <item>Ayas</item>
+        <item>Wulan</item>
+    </string-array>
+</resources>
+

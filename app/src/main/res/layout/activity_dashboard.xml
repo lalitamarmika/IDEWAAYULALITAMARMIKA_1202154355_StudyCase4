@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#05c3f9"
+    tools:context="android.lalita.com.idewaayulalitamarmika_1202154355_studycase4.Dashboard">
+
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:onClick="buttonNama"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@android:color/white"
+        android:text="AsyncTask"
+        android:id="@+id/AsyncTask"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:onClick="buttonGambar"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@android:color/white"
+        android:text="Cari Gambar"
+        android:id="@+id/CariGambar"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

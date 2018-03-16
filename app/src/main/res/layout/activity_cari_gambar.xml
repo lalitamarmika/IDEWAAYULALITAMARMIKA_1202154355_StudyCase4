@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00bfa5"
+    tools:context="android.lalita.com.idewaayulalitamarmika_1202154355_studycase4.CariGambar">
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="Cari Gambar"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_margin="25dp"
+        android:id="@+id/judulGambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:textColorHint="#fcfcfc"
+        android:id="@+id/editUrl"
+        android:textAlignment="center"
+        android:hint="Masukkan URL Gambar"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="cari"
+        android:id="@+id/buttonCari"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:text="Klik untuk cari gambar"
+        android:textSize="15sp"
+        android:backgroundTint="@android:color/white"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/gambar"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
